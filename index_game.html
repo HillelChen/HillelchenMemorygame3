@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory_game</title>
+    <link rel="stylesheet" href="./style_game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+
+
+        <div class="container">
+
+            <div class="board"></div>
+            <div class="wapNavbar">
+
+                <div class="navbar">
+                    <br><br><br><br><br>
+                    <h1 class="title">Welcome to THE space memory game!</h1>
+                    <br><br>
+                    <div>playing now: <b id="playerName"></b> </div>
+                    <br><br>
+                    <div> turns: <b id="turn"></b> </div>
+                    <br><br>
+                    <div>points: <b id="points"></b></div>
+                    <span>
+                        <section id="stopWatch">
+                            <p id="timer"> 00:00 </p>
+                            <button id="start"> Start </button>
+                            <button id="stop"> Stop </button>
+                            <button id="pause"> Pause </button>
+                            <button id="continue" hidden> Continue </button>
+                            <p id="fulltime" class="fulltime"> </p>
+                        </section>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="wait"></div>
+        <script src="./main.js"></script>
+
+</body>
+
+</html>

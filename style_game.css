@@ -1,0 +1,139 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://www.makorrishon.co.il/wp-content/uploads/2023/05/%D7%90%D7%99%D7%A8%D7%95%D7%A2-%D7%A7%D7%95%D7%A1%D7%9E%D7%99-MARK-A-GARLICK-SHEFFIELD-UNIVERSITY-AFP.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.board{
+    background-position: center;
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: first baseline;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    background: url("https://www.vhv.rs/dpng/d/91-918998_galaxy-circle-png-transparent-png.png"); 
+    justify-content: center;
+    background-size: 120%;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 34px 8px #ffffff;
+    cursor: pointer;
+    /* transform: rotateY(180deg); */
+}
+
+.title{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+#wait{
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: -1;
+}
+
+.show{
+    z-index: 10;
+    opacity: 10;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.wapNavbar{
+    display: flex;
+    justify-content: center;
+}
+
+
+  #stopWatch {
+    height: auto;
+    text-align: center;
+    display: block;
+    padding: 5px;
+  }
+  
+  #timer,
+  #fulltime {
+    width: 15vw;
+    height: auto;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: ubuntu;
+    margin-left: 27vw;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+  }
+  
+  button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: ubuntu;
+    outline: none;
+    width: 80px;
+    padding: 10px 0px;
+    border-radius: 5px;
+  }
+  h5, h6, p{
+  margin: 15px 0  !important;
+  }
+  #fulltime {
+    display: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
